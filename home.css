@@ -1,0 +1,95 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f6f6f6;
+    color: #111;
+    margin: 40px auto;
+    max-width: 900px;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* NAV BAR */
+.nav-bar {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* DROPDOWN ROOT */
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin: 0 12px;
+    font-size: 14px;
+}
+
+/* TOP LEVEL TEXT */
+.dropdown > span {
+    cursor: pointer;
+    color: #0645ad;
+}
+
+/* DROPDOWN MENU */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #f6f6f6;
+    border: 1px solid #aaa;
+    padding: 6px 0;
+    min-width: 160px;
+    text-align: left;
+    z-index: 10;
+}
+
+/* SHOW ON HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* LINKS INSIDE DROPDOWN */
+.dropdown-content a {
+    display: block;
+    padding: 4px 10px;
+    font-size: 13px;
+    color: #0645ad;
+    text-decoration: none;
+}
+
+/* HOVER FEEL (VERY SUBTLE, OLD WEB STYLE) */
+.dropdown-content a:hover {
+    text-decoration: underline;
+    background: #eee;
+}
+
+/* HEADER */
+.header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 6px;
+}
+
+/* SUBTITLE */
+.header-desc {
+    font-size: 15px;
+    color: #333;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+/* CONTENT */
+.content {
+    font-size: 15px;
+}
+
+/* LINKS */
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
